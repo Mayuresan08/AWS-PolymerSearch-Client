@@ -14,7 +14,7 @@ export default function DismissHeader()
         <>       
         {show &&
         <div className="dismissContainer">
-        <div className="dismissText"><h6><AiFillThunderbolt id="thunder"/>Transform your spreadsheet into a powerful search and insights engine with polymer search. <a href="https://www.polymersearch.com/?utm_source=aws" target="_blank">Learn more.</a></h6></div>
+        <div className="dismissText"><h6><AiFillThunderbolt id="thunder"/>Transform your spreadsheet into a powerful search and insights engine with polymer search. <a href="https://www.polymersearch.com/?utm_source=aws" target="_blank" rel="noreferrer">Learn more.</a></h6></div>
         <div className="dismissButton"><Button variant="none" onClick={handleShow} style={{color:"white"}}><h4><AiFillCloseCircle/> </h4></Button></div>
         </div>
         }

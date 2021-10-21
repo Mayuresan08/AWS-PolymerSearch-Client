@@ -3,7 +3,7 @@ import './header.css'
 import aws from "../../assets/aws.png";
 import query from "../../assets/querytip.PNG";
  import chart from "../../assets/charttip.PNG";
-import { Navbar,Container, Nav,NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav,NavDropdown } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import { AiFillBulb,AiOutlineReload } from "react-icons/ai";
 import { RiVipDiamondFill } from "react-icons/ri";
