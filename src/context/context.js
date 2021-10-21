@@ -28,7 +28,7 @@ export  function DataProvider({children}){
       try
       {
         dispatch({type:ACTION.CALL_API})
-       let response= await axios.get("http://localhost:3001/repo",{params:selectTags})
+       let response= await axios.get("https://aws-polymer.herokuapp.com/repo",{params:selectTags})
          dispatch({type:ACTION.SUCCESS,payload:response.data})
       }
       catch(err)
