@@ -1,0 +1,62 @@
+.card{
+    background-color: white;
+    padding: 0.7rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+    cursor: alias;
+    
+
+}
+.shareCopy{
+    color: grey !important;
+    font-size: 0.8rem !important;
+}
+.alertBox{
+    position: absolute;
+    width: 10rem;
+    height: 2rem;
+}
+.insideCard{
+    display: flex;
+    gap: 2rem;
+    margin: 1rem 2rem;
+}
+.insideCard1{
+    display: flex;
+    gap: 2rem;
+}
+.modal-90w{
+    min-width: 80% ;
+}
+
+.custom-modal-style {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    }
+
+.modal-header{
+    background-color: rgb(172, 170, 170);
+}
+
+.modalBody{
+    border: 1px solid rgb(221, 218, 218);
+    border-radius: 10px;
+}
+.modalBody1{
+    position: relative;
+}
+.modalHeader{
+    text-align: center;
+    padding: 2px;
+    width: 12rem;
+    border:1px solid rgb(221, 218, 218);
+    border-radius: 10px;
+    position: absolute !important;
+    top: -1.9rem;
+    left: 1rem;
+    background-color: white;
+    z-index: 1;
+}

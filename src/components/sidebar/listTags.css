@@ -1,0 +1,51 @@
+.listTagContainer{
+    position: absolute;
+    /* background-color: red; */
+    border: 1px solid  rgb(216, 216, 216);
+    border-radius: 10px;
+    width: 30rem;
+    top:0rem;
+    left: 13.4rem;
+}
+.tagsTop{
+    width: 100%;
+    height: 0.4rem;
+    background-color: #0029e6;
+    background-image: linear-gradient(43deg, #0029e6 0%, #d21618 46%, #fff170 100%);
+    
+}
+.tagSearch{
+    padding: 5px;
+    background-color: rgb(219, 216, 216);
+}
+#name{
+    border:none;
+}
+label{
+    background-color: white;
+    font-size: 1.068rem;
+    
+}
+.tagBox{
+    padding: 1rem;
+    background-color: white;
+}
+.tagItem{
+    display: inline-block;
+    background-color: rgb(202, 233, 243);
+    border-radius: 3px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    padding: 0.2rem;
+}
+.tagItemHover{
+    background-color: rgb(70, 199, 241);
+}
+.tagItemNumber{
+    display: inline-block;
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+    color: grey;
+}

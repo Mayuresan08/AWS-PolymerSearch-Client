@@ -1,0 +1,72 @@
+.sidebarContainer{
+    display: flex;
+    position: sticky !important;
+    top: 4rem !important;
+    align-self: flex-start ; 
+    z-index: 1 !important;
+}
+.sideFixed{
+    width: 3.25rem;
+    background-color: rgb(85, 85, 112) ;
+    color: rgb(73, 72, 72) ;
+    /* height: 100vh; */
+    animation: changeColor 5s infinite linear;  
+}
+@keyframes changeColor{
+    0%   {background-color: rgb(143, 199, 218);}
+    50%  {background-color: rgb(3, 154, 241);}
+    100% {background-color: rgb(143, 199, 218);}
+}
+.tag{
+    position: relative;
+    top: -10px;
+    font-size: 0.85rem;
+}
+.sideScroll{
+    width: 15rem;
+    height: 100vh;
+    border-right: 1px solid rgb(216, 216, 216);
+    padding: 0.8rem;
+}
+.scrollHeader{
+    font-size: 0.8rem;
+    color: grey;
+}
+.list{
+    padding: 0.3rem;
+    border:1px solid rgb(201, 195, 195);
+    border-radius: 0.75rem;
+    font-size: 0.8rem;
+    margin-left:10px;
+    gap:0.3rem
+}
+.listName{
+    margin-left: 2rem;
+    width: 7rem;
+}
+.listNumber{
+    padding: 2.5px;
+    background-color: rgba(244,226,242,255)    ;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.listNameActive{
+    width: 0.5rem;
+    background-color: hotpink;
+}
+.listNumberActive{
+    background-color: hotpink;
+}
+.scrollList{
+    position: relative;
+}
+.scrollListTags
+{
+    position: absolute;
+    background-color: red;
+    width: 5rem;
+    height: 5rem;
+    top:0rem;
+    left: 13rem;
+}

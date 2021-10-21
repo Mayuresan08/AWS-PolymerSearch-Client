@@ -1,0 +1,92 @@
+.navbarContainer{
+    background-color: white;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1;
+}
+.navTitle{
+    font-weight: 150;
+}
+.navItem{
+    color: black ;
+    text-decoration: none;
+}
+.nav-item{
+    display: flex;
+    justify-content: center;
+}
+.nav-link{
+    display: flex !important;
+    /* background-color: turquoise !important; */
+    /* width: 8rem !important; */
+    justify-content: center !important;
+    align-items: center;
+}
+.navItem:hover{
+    border-bottom: 4px solid orange;
+    color: orange !important;
+}
+.setItem{
+    color: orange !important;
+    border-bottom: 4px solid orange;
+}
+.bulbIcon{
+    color: rgb(240, 160, 11);
+}
+.reloadIcon{
+    color:blue
+}
+
+.polymer{
+    background-color: rgb(232, 228, 247);
+    color: black !important;
+    border-radius: 20px;
+}
+.dropdown{
+    margin: 0 10px;
+    border: 1.5px solid blue ;
+    border-radius: 20px;
+}
+.dropdown-menu{
+position: relative;
+left:-80px
+}
+
+#searchId ,#chartId 
+{
+    position: relative;
+}
+
+#searchTooltip
+{
+    display: flex;
+   background-color: white;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    top:58px;
+    left: -30px;
+    padding: 8px;
+    border: 1px solid rgb(216, 216, 216);
+}
+#chartTooltip{
+    width:20rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    top:58px;
+    left: -50px;
+    padding: 8px;
+    border: 1px solid rgb(216, 216, 216); 
+    background-color: white;
+}
+
+@media (max-width:1020px)
+{
+   
+    #searchTooltip , #chartTooltip{
+        display: none !important;
+    }
+}
