@@ -25,7 +25,7 @@ export function DataProvider({ children }) {
     try {
       dispatch({ type: ACTION.CALL_API });
       let response = await axios.get(
-        "https://aws-polymer-app.herokuapp.com/repo",
+        "https://awsserver-789c.onrender.com/repo",
         { params: selectTags }
       );
       dispatch({ type: ACTION.SUCCESS, payload: response.data });
